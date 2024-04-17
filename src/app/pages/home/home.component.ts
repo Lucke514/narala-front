@@ -3,6 +3,7 @@ import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { HeaderComponent } from '../../shared/header/header.component';
 import { BannerComponent } from '../../components/banner/banner.component';
 import AOS from 'aos';
+import { ContactComponent } from '../../components/contact/contact.component';
 
 @Component({
   selector: 'app-home',
@@ -10,7 +11,8 @@ import AOS from 'aos';
   imports: [
     CommonModule,
     HeaderComponent,
-    BannerComponent
+    BannerComponent,
+    ContactComponent
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
