@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
+import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-contact',
@@ -8,6 +10,14 @@ import { Component } from '@angular/core';
   styleUrl: './contact.component.css'
 })
 export class ContactComponent {
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+
+  ngOnInit() {
+    if (isPlatformBrowser(this.platformId)) {
+      AOS.init();
+    }
+  }
+
   socials = [
     {
       socialName: '@danitzad1',

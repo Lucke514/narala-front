@@ -4,6 +4,7 @@ import { HeaderComponent } from '../../shared/header/header.component';
 import { BannerComponent } from '../../components/banner/banner.component';
 import AOS from 'aos';
 import { ContactComponent } from '../../components/contact/contact.component';
+import { CatalogueComponent } from '../../components/catalogue/catalogue.component';
 
 @Component({
   selector: 'app-home',
@@ -12,6 +13,7 @@ import { ContactComponent } from '../../components/contact/contact.component';
     CommonModule,
     HeaderComponent,
     BannerComponent,
+    CatalogueComponent,
     ContactComponent
   ],
   templateUrl: './home.component.html',
