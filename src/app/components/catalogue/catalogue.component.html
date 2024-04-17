@@ -3,7 +3,7 @@
     ¿Ya Viste nuestro Catálogo?
   </h2>
 
-  <main class="grid md:grid-cols-2 lg:grid-cols-3">
+  <main class="grid grid-cols-2 lg:grid-cols-3">
     @for (item of products; track $index) {
       <div class="flex flex-col justify-center mx-auto">
         <img src="{{ item.image }}" alt="{{ item.name }}" width="150" height="150" class="card-img" />
