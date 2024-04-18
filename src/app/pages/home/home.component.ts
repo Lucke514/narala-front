@@ -5,6 +5,8 @@ import { BannerComponent } from '../../components/banner/banner.component';
 import AOS from 'aos';
 import { ContactComponent } from '../../components/contact/contact.component';
 import { CatalogueComponent } from '../../components/catalogue/catalogue.component';
+import { MapComponent } from '../../components/map/map.component';
+import { AboutComponent } from '../../components/about/about.component';
 
 @Component({
   selector: 'app-home',
@@ -13,6 +15,8 @@ import { CatalogueComponent } from '../../components/catalogue/catalogue.compone
     CommonModule,
     HeaderComponent,
     BannerComponent,
+    AboutComponent,
+    MapComponent,
     CatalogueComponent,
     ContactComponent
   ],
