@@ -7,6 +7,7 @@ import { ContactComponent } from '../../components/contact/contact.component';
 import { CatalogueComponent } from '../../components/catalogue/catalogue.component';
 import { MapComponent } from '../../components/map/map.component';
 import { AboutComponent } from '../../components/about/about.component';
+import { FooterComponent } from '../../shared/footer/footer.component';
 
 @Component({
   selector: 'app-home',
@@ -18,7 +19,8 @@ import { AboutComponent } from '../../components/about/about.component';
     AboutComponent,
     MapComponent,
     CatalogueComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
