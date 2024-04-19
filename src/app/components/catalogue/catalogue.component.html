@@ -12,8 +12,8 @@
           <p class="text-sm max-w-[150px]">{{ item.description }}</p>
 
           @if (item.discount > 0) {
-            <p class="text-sm font-bold line-through text-gray-500"> ${{ item.price }}</p>
-            <p class="text-sm font-bold text-rose-500"> ${{ item.price - item.discount }}</p>
+            <p class="text-sm font-bold line-through text-gray-500"> {{ formatPrice(item.price) }}</p>
+            <p class="text-sm font-bold text-rose-500"> {{ formatPrice(item.price - item.discount) }}</p>
           } @else if (item.discount === 0) {
             <p class="text-sm font-bold "> {{ formatPrice(item.price) }}</p>
           }
