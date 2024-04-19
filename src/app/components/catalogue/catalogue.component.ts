@@ -62,4 +62,8 @@ export class CatalogueComponent {
       image: 'https://production.na01.natura.com/on/demandware.static/-/Sites-natura-cl-storefront-catalog/default/dwb1ca858e/2023-01-28/74900_1.jpg'
     }
   ]
+
+  formatPrice(price: number) {
+    return new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP' }).format(price);
+  }
 }
