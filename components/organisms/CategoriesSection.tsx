@@ -38,20 +38,22 @@ const categories = [
 
 export function CategoriesSection() {
   return (
-    <section className="flex w-full flex-col items-center gap-12 bg-gradient-to-b from-pink-50 to-pink-200 py-20 px-6 md:px-[120px]">
-      <SectionHeader
-        title="Nuestras Categorías"
-        subtitle="Encuentra todo lo que necesitas para tu rutina de belleza"
-      />
-      <div className="flex flex-wrap justify-center gap-6">
-        {categories.map((cat) => (
-          <CategoryCard
-            key={cat.title}
-            icon={cat.icon}
-            title={cat.title}
-            count={cat.count}
-          />
-        ))}
+    <section className="w-full bg-gradient-to-b from-pink-50 to-pink-200">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-10 px-4 py-12 sm:gap-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
+        <SectionHeader
+          title="Nuestras Categorías"
+          subtitle="Encuentra todo lo que necesitas para tu rutina de belleza"
+        />
+        <div className="grid w-full grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6 lg:grid-cols-5">
+          {categories.map((cat) => (
+            <CategoryCard
+              key={cat.title}
+              icon={cat.icon}
+              title={cat.title}
+              count={cat.count}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

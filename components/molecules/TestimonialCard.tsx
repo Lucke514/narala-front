@@ -10,7 +10,7 @@ export function TestimonialCard({
   authorRole,
 }: TestimonialCardProps) {
   return (
-    <div className="flex w-full max-w-[380px] flex-col gap-5 rounded-3xl bg-pink-50 p-8">
+    <div className="flex w-full flex-col gap-5 rounded-3xl bg-pink-50 p-6 sm:p-8">
       <p className="text-xl text-gray-800">⭐⭐⭐⭐⭐</p>
       <p className="text-base italic leading-relaxed text-gray-700">
         {quote}

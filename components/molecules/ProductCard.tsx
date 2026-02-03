@@ -17,14 +17,14 @@ export function ProductCard({
   price,
 }: ProductCardProps) {
   return (
-    <article className="flex w-full max-w-[280px] flex-col overflow-hidden rounded-3xl bg-white shadow-[0_8px_32px_rgba(0,0,0,0.08)]">
+    <article className="flex w-full flex-col overflow-hidden rounded-3xl bg-white shadow-[0_8px_32px_rgba(0,0,0,0.08)]">
       <div className="relative h-[260px] w-full overflow-hidden rounded-t-3xl bg-gray-100">
         <Image
           src={imageSrc}
           alt={imageAlt}
           fill
           className="object-cover"
-          sizes="280px"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
         />
       </div>
       <div className="flex flex-col gap-3 p-6">

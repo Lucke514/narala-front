@@ -24,20 +24,22 @@ const testimonials = [
 
 export function TestimonialsSection() {
   return (
-    <section className="flex w-full flex-col items-center gap-12 bg-white py-20 px-6 md:px-[120px]">
-      <SectionHeader
-        title="Lo Que Dicen Nuestras Clientas"
-        subtitle="Más de 500 clientas satisfechas nos respaldan"
-      />
-      <div className="flex flex-wrap justify-center gap-6">
-        {testimonials.map((t) => (
-          <TestimonialCard
-            key={t.authorName}
-            quote={t.quote}
-            authorName={t.authorName}
-            authorRole={t.authorRole}
-          />
-        ))}
+    <section className="w-full bg-white">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-10 px-4 py-12 sm:gap-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
+        <SectionHeader
+          title="Lo Que Dicen Nuestras Clientas"
+          subtitle="Más de 500 clientas satisfechas nos respaldan"
+        />
+        <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {testimonials.map((t) => (
+            <TestimonialCard
+              key={t.authorName}
+              quote={t.quote}
+              authorName={t.authorName}
+              authorRole={t.authorRole}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

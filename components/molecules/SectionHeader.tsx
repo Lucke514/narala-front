@@ -18,7 +18,7 @@ export function SectionHeader({
       className={`flex flex-col gap-4 ${centered ? "items-center text-center" : ""}`}
     >
       <h2
-        className={`font-serif text-4xl font-semibold text-rose-900 md:text-5xl ${titleClassName}`}
+        className={`font-serif text-3xl font-semibold text-rose-900 sm:text-4xl md:text-5xl ${titleClassName}`}
       >
         {title}
       </h2>

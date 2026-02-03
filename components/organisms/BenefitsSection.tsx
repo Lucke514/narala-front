@@ -36,20 +36,22 @@ const benefits = [
 
 export function BenefitsSection() {
   return (
-    <section className="flex w-full flex-col items-center gap-12 bg-white py-20 px-6 md:px-[120px]">
-      <SectionHeader
-        title="¿Por qué elegirnos?"
-        subtitle="Comprometidos con tu bienestar y belleza natural"
-      />
-      <div className="flex flex-wrap items-stretch justify-center gap-8">
-        {benefits.map((benefit) => (
-          <BenefitCard
-            key={benefit.title}
-            icon={benefit.icon}
-            title={benefit.title}
-            description={benefit.description}
-          />
-        ))}
+    <section className="w-full bg-white">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-10 px-4 py-12 sm:gap-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
+        <SectionHeader
+          title="¿Por qué elegirnos?"
+          subtitle="Comprometidos con tu bienestar y belleza natural"
+        />
+        <div className="grid w-full grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4 lg:gap-8">
+          {benefits.map((benefit) => (
+            <BenefitCard
+              key={benefit.title}
+              icon={benefit.icon}
+              title={benefit.title}
+              description={benefit.description}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -32,23 +32,25 @@ export function ProductsSection() {
   return (
     <section
       id="productos"
-      className="flex w-full flex-col items-center gap-12 bg-gradient-to-b from-pink-50 to-pink-200 py-20 px-6 md:px-[120px]"
+      className="w-full bg-gradient-to-b from-pink-50 to-pink-200"
     >
-      <SectionHeader
-        title="Productos Destacados"
-        subtitle="Los favoritos de nuestras clientas"
-      />
-      <div className="flex flex-wrap justify-center gap-6">
-        {products.map((product) => (
-          <ProductCard
-            key={product.name}
-            imageSrc={product.imageSrc}
-            imageAlt={product.imageAlt}
-            name={product.name}
-            description={product.description}
-            price={product.price}
-          />
-        ))}
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-10 px-4 py-12 sm:gap-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
+        <SectionHeader
+          title="Productos Destacados"
+          subtitle="Los favoritos de nuestras clientas"
+        />
+        <div className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {products.map((product) => (
+            <ProductCard
+              key={product.name}
+              imageSrc={product.imageSrc}
+              imageAlt={product.imageAlt}
+              name={product.name}
+              description={product.description}
+              price={product.price}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
