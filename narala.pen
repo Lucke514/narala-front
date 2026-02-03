@@ -1,0 +1,4083 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "eXe1s",
+      "x": 0,
+      "y": 0,
+      "name": "Narala SPA - Landing Page",
+      "clip": true,
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ysKeX",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#FFFFFF",
+          "padding": [
+            0,
+            120
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "CthrF",
+              "name": "logoContainer",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "w2ifA",
+                  "name": "logoIcon",
+                  "width": 44,
+                  "height": 44,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 135,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#F472B6",
+                        "position": 0
+                      },
+                      {
+                        "color": "#EC4899",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 12,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "sZXnK",
+                      "name": "logoFlower",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "flower-2",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "LPZkh",
+                  "name": "logoText",
+                  "fill": "#EC4899",
+                  "content": "Narala SPA",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oVhot",
+              "name": "navContainer",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eQo8j",
+                  "name": "navInicio",
+                  "fill": "#374151",
+                  "content": "Inicio",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "ZVLEi",
+                  "name": "navProductos",
+                  "fill": "#374151",
+                  "content": "Productos",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "xingX",
+                  "name": "navNosotros",
+                  "fill": "#374151",
+                  "content": "Nosotros",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "xK52D",
+                  "name": "navUbicacion",
+                  "fill": "#374151",
+                  "content": "Ubicación",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "jP3df",
+                  "name": "navContacto",
+                  "fill": "#374151",
+                  "content": "Contacto",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bcklE",
+              "name": "waHeaderBtn",
+              "fill": "#25D366",
+              "cornerRadius": 100,
+              "gap": 8,
+              "padding": [
+                10,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "GH4PT",
+                  "name": "waHeaderIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "message-circle",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "text",
+                  "id": "Utppt",
+                  "name": "waHeaderText",
+                  "fill": "#FFFFFF",
+                  "content": "WhatsApp",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m09HZ",
+              "name": "ctaHeader",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 135,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#F472B6",
+                    "position": 0
+                  },
+                  {
+                    "color": "#EC4899",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 100,
+              "padding": [
+                14,
+                28
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aDuOa",
+                  "name": "ctaHeaderText",
+                  "fill": "#FFFFFF",
+                  "content": "Comprar Ahora",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "4LgKB",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "height": 780,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 135,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#FDF2F8",
+                "position": 0
+              },
+              {
+                "color": "#FCE7F3",
+                "position": 0.5
+              },
+              {
+                "color": "#FBCFE8",
+                "position": 1
+              }
+            ]
+          },
+          "gap": 60,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "2EMkc",
+              "name": "Hero Content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Punfv",
+                  "name": "heroBadge",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 100,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000010",
+                    "offset": {
+                      "x": 0,
+                      "y": 2
+                    },
+                    "blur": 12
+                  },
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "JS0jL",
+                      "name": "heroBadgeIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "sparkles",
+                      "iconFontFamily": "lucide",
+                      "fill": "#EC4899"
+                    },
+                    {
+                      "type": "text",
+                      "id": "flFyu",
+                      "name": "heroBadgeText",
+                      "fill": "#EC4899",
+                      "content": "Productos Natura Originales",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ZA4Ay",
+                  "name": "heroTitle",
+                  "fill": "#831843",
+                  "textGrowth": "fixed-width",
+                  "width": 580,
+                  "content": "Descubre tu Belleza Natural",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 64,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "u7uZA",
+                  "name": "heroSubtitle",
+                  "fill": "#6B7280",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "En Narala SPA encontrarás los mejores productos de cuidado personal y belleza. Somos distribuidores oficiales de Natura en Ovalle, Chile.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "DM Sans",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "xEpOA",
+                  "name": "heroCtas",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Kum0v",
+                      "name": "heroPrimaryCta",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#EC4899",
+                            "position": 0
+                          },
+                          {
+                            "color": "#DB2777",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 100,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#EC489960",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 20
+                      },
+                      "gap": 10,
+                      "padding": [
+                        18,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5tDc8",
+                          "name": "heroPrimaryCtaText",
+                          "fill": "#FFFFFF",
+                          "content": "Ver Catálogo",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "CZ5x7",
+                          "name": "heroPrimaryCtaIcon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "arrow-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "M17mg",
+                      "name": "heroSecondaryCta",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 100,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#F9A8D4"
+                      },
+                      "gap": 10,
+                      "padding": [
+                        18,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KVfw0",
+                          "name": "heroSecondaryCtaText",
+                          "fill": "#EC4899",
+                          "content": "Contáctanos",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zFfgf",
+                  "name": "heroStats",
+                  "gap": 40,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tmtBz",
+                      "name": "heroStat1",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vM3UL",
+                          "name": "heroStat1Num",
+                          "fill": "#EC4899",
+                          "content": "+500",
+                          "fontFamily": "Fraunces",
+                          "fontSize": 36,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "f3l1H",
+                          "name": "heroStat1Label",
+                          "fill": "#6B7280",
+                          "content": "Clientas Felices",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "x6x6E",
+                      "name": "heroStat2",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ulabI",
+                          "name": "heroStat2Num",
+                          "fill": "#EC4899",
+                          "content": "100%",
+                          "fontFamily": "Fraunces",
+                          "fontSize": 36,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "4dspP",
+                          "name": "heroStat2Label",
+                          "fill": "#6B7280",
+                          "content": "Productos Originales",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AGKGF",
+                      "name": "heroStat3",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "2BeFh",
+                          "name": "heroStat3Num",
+                          "fill": "#EC4899",
+                          "content": "5★",
+                          "fontFamily": "Fraunces",
+                          "fontSize": 36,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Svst1",
+                          "name": "heroStat3Label",
+                          "fill": "#6B7280",
+                          "content": "Calificación",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "k7fuG",
+              "name": "Hero Image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "hieuanhcauam",
+                "link": "https://unsplash.com/@hieuanhcauam",
+                "author": "Elist Nguyen"
+              },
+              "width": 560,
+              "height": 540,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1765021560410-139847939878?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAxNDU1NDR8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 24
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rikWy",
+          "name": "Trust Bar",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "padding": [
+            0,
+            120
+          ],
+          "justifyContent": "space_around",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "GQ6BC",
+              "name": "trust1",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "dhjra",
+                  "name": "trust1Icon",
+                  "width": 28,
+                  "height": 28,
+                  "iconFontName": "truck",
+                  "iconFontFamily": "lucide",
+                  "fill": "#EC4899"
+                },
+                {
+                  "type": "frame",
+                  "id": "Oo2B1",
+                  "name": "trust1Text",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ay7Zi",
+                      "name": "trust1Title",
+                      "fill": "#1F2937",
+                      "content": "Envío Gratis",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pAyBb",
+                      "name": "trust1Sub",
+                      "fill": "#6B7280",
+                      "content": "En compras sobre $30.000",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uBncX",
+              "name": "trust2",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "j4Y37",
+                  "name": "trust2Icon",
+                  "width": 28,
+                  "height": 28,
+                  "iconFontName": "shield-check",
+                  "iconFontFamily": "lucide",
+                  "fill": "#EC4899"
+                },
+                {
+                  "type": "frame",
+                  "id": "KNgq4",
+                  "name": "trust2Text",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pBi10",
+                      "name": "trust2Title",
+                      "fill": "#1F2937",
+                      "content": "100% Original",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hkWJQ",
+                      "name": "trust2Sub",
+                      "fill": "#6B7280",
+                      "content": "Garantía Natura oficial",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aYk2w",
+              "name": "trust3",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "BfAvd",
+                  "name": "trust3Icon",
+                  "width": 28,
+                  "height": 28,
+                  "iconFontName": "credit-card",
+                  "iconFontFamily": "lucide",
+                  "fill": "#EC4899"
+                },
+                {
+                  "type": "frame",
+                  "id": "Ftqf7",
+                  "name": "trust3Text",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iQ0eS",
+                      "name": "trust3Title",
+                      "fill": "#1F2937",
+                      "content": "Pago Seguro",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FacPO",
+                      "name": "trust3Sub",
+                      "fill": "#6B7280",
+                      "content": "Transferencia y tarjetas",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Iyzf0",
+              "name": "trust4",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "jsc5o",
+                  "name": "trust4Icon",
+                  "width": 28,
+                  "height": 28,
+                  "iconFontName": "headphones",
+                  "iconFontFamily": "lucide",
+                  "fill": "#EC4899"
+                },
+                {
+                  "type": "frame",
+                  "id": "qTP2Y",
+                  "name": "trust4Text",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FdvfT",
+                      "name": "trust4Title",
+                      "fill": "#1F2937",
+                      "content": "Atención Directa",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2bSRR",
+                      "name": "trust4Sub",
+                      "fill": "#6B7280",
+                      "content": "WhatsApp disponible",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lK8JI",
+          "name": "Benefits Section",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JQgUR",
+              "name": "benefitsHeader",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HhF3z",
+                  "name": "benefitsTitle",
+                  "fill": "#831843",
+                  "content": "¿Por qué elegirnos?",
+                  "textAlign": "center",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 48,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "JRWcL",
+                  "name": "benefitsSubtitle",
+                  "fill": "#6B7280",
+                  "content": "Comprometidos con tu bienestar y belleza natural",
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qetBO",
+              "name": "benefitsGrid",
+              "width": "fill_container",
+              "gap": 32,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ngQRY",
+                  "name": "benefit1",
+                  "width": 280,
+                  "fill": "#FDF2F8",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "36CJi",
+                      "name": "benefit1Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F472B6",
+                            "position": 0
+                          },
+                          {
+                            "color": "#EC4899",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "MDLQR",
+                          "name": "benefit1IconInner",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "badge-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "u3Fr8",
+                      "name": "benefit1Title",
+                      "fill": "#831843",
+                      "content": "100% Originales",
+                      "textAlign": "center",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QsDz7",
+                      "name": "benefit1Desc",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": 220,
+                      "content": "Todos nuestros productos son originales de Natura, garantizando calidad y autenticidad.",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4hva9",
+                  "name": "benefit2",
+                  "width": 280,
+                  "fill": "#FDF2F8",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "7C4cb",
+                      "name": "benefit2Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F472B6",
+                            "position": 0
+                          },
+                          {
+                            "color": "#EC4899",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "uwVX5",
+                          "name": "benefit2IconInner",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "heart-handshake",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "yEiEa",
+                      "name": "benefit2Title",
+                      "fill": "#831843",
+                      "content": "Atención Personalizada",
+                      "textAlign": "center",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "je0hY",
+                      "name": "benefit2Desc",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": 220,
+                      "content": "Te asesoramos para encontrar los productos perfectos para tu tipo de piel y necesidades.",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Oezeg",
+                  "name": "benefit3",
+                  "width": 280,
+                  "fill": "#FDF2F8",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oBQoL",
+                      "name": "benefit3Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F472B6",
+                            "position": 0
+                          },
+                          {
+                            "color": "#EC4899",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "jcLX2",
+                          "name": "benefit3IconInner",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "truck",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "RYcLM",
+                      "name": "benefit3Title",
+                      "fill": "#831843",
+                      "content": "Envíos a Todo Chile",
+                      "textAlign": "center",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MYtjN",
+                      "name": "benefit3Desc",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": 220,
+                      "content": "Realizamos envíos a todo el país. También puedes visitarnos en nuestra tienda en Ovalle.",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "N9Hds",
+                  "name": "benefit4",
+                  "width": 280,
+                  "fill": "#FDF2F8",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mOelK",
+                      "name": "benefit4Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F472B6",
+                            "position": 0
+                          },
+                          {
+                            "color": "#EC4899",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "KJzZa",
+                          "name": "benefit4IconInner",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "leaf",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Xceqi",
+                      "name": "benefit4Title",
+                      "fill": "#831843",
+                      "content": "Eco-Friendly",
+                      "textAlign": "center",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "khncK",
+                      "name": "benefit4Desc",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": 220,
+                      "content": "Natura está comprometida con el medio ambiente y la sustentabilidad en todos sus productos.",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "f8yj5",
+          "name": "Products Section",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#FDF2F8",
+                "position": 0
+              },
+              {
+                "color": "#FECDD3",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "QuJdp",
+              "name": "productsHeader",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fkhtd",
+                  "name": "productsTitle",
+                  "fill": "#831843",
+                  "content": "Productos Destacados",
+                  "textAlign": "center",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 48,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "fUOIJ",
+                  "name": "productsSubtitle",
+                  "fill": "#6B7280",
+                  "content": "Los favoritos de nuestras clientas",
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nkv4X",
+              "name": "productsGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xvURv",
+                  "name": "product1",
+                  "width": 280,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000015",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 32
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FuA5E",
+                      "name": "product1Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "pawel_czerwinski",
+                        "link": "https://unsplash.com/@pawel_czerwinski",
+                        "author": "Pawel Czerwinski"
+                      },
+                      "width": "fill_container",
+                      "height": 260,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1764513168260-391d5a3ea21a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAxNDU2MDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        24,
+                        24,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cdDJ8",
+                      "name": "product1Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tDghp",
+                          "name": "product1Category",
+                          "fill": "#EC4899",
+                          "content": "PERFUMERÍA",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EI9ae",
+                          "name": "product1Name",
+                          "fill": "#1F2937",
+                          "content": "Essencial Exclusivo Floral",
+                          "fontFamily": "Fraunces",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rWRbW",
+                          "name": "product1Desc",
+                          "fill": "#6B7280",
+                          "textGrowth": "fixed-width",
+                          "width": 232,
+                          "content": "Fragancia femenina con notas florales y frescas.",
+                          "lineHeight": 1.4,
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oEM3d",
+                          "name": "oldPrice1",
+                          "fill": "#9CA3AF",
+                          "content": "$57.490",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Vqfm7",
+                          "name": "product1Price",
+                          "fill": "#EC4899",
+                          "content": "$45.990",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "1ACCV",
+                          "name": "product1Btn",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 135,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#EC4899",
+                                "position": 0
+                              },
+                              {
+                                "color": "#DB2777",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "cornerRadius": 100,
+                          "padding": [
+                            12,
+                            24
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qmhqN",
+                              "name": "product1BtnText",
+                              "fill": "#FFFFFF",
+                              "content": "Agregar al Carrito",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "8zyk4",
+                  "name": "product2",
+                  "width": 280,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000015",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 32
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "u58Sp",
+                      "name": "product2Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "eve__3d",
+                        "link": "https://unsplash.com/@eve__3d",
+                        "author": "Eveling Salazar"
+                      },
+                      "width": "fill_container",
+                      "height": 260,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1763503836825-97f5450d155a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAxNDU2MDh8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        24,
+                        24,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eqQVZ",
+                      "name": "product2Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XVinN",
+                          "name": "product2Category",
+                          "fill": "#EC4899",
+                          "content": "CUIDADO FACIAL",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nCEev",
+                          "name": "product2Name",
+                          "fill": "#1F2937",
+                          "content": "Chronos Crema Antiarrugas",
+                          "fontFamily": "Fraunces",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hvbLr",
+                          "name": "product2Desc",
+                          "fill": "#6B7280",
+                          "textGrowth": "fixed-width",
+                          "width": 232,
+                          "content": "Crema hidratante con acción anti-edad visible.",
+                          "lineHeight": 1.4,
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "YiS5Y",
+                          "name": "product2Price",
+                          "fill": "#EC4899",
+                          "content": "$38.990",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "5t5pK",
+                          "name": "product2Btn",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 135,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#EC4899",
+                                "position": 0
+                              },
+                              {
+                                "color": "#DB2777",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "cornerRadius": 100,
+                          "padding": [
+                            12,
+                            24
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qH6WU",
+                              "name": "product2BtnText",
+                              "fill": "#FFFFFF",
+                              "content": "Agregar al Carrito",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ARlKy",
+                  "name": "product3",
+                  "width": 280,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000015",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 32
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "3MYY4",
+                      "name": "product3Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "glotova_content",
+                        "link": "https://unsplash.com/@glotova_content",
+                        "author": "Kate Glotova"
+                      },
+                      "width": "fill_container",
+                      "height": 260,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1664530964972-66ef1bc29d61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAxNDU2MTJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        24,
+                        24,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "beYDd",
+                      "name": "product3Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "2MKzn",
+                          "name": "product3Category",
+                          "fill": "#EC4899",
+                          "content": "CUIDADO CORPORAL",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5rTmi",
+                          "name": "product3Name",
+                          "fill": "#1F2937",
+                          "content": "Tododia Hidratante Corporal",
+                          "fontFamily": "Fraunces",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "2pxch",
+                          "name": "product3Desc",
+                          "fill": "#6B7280",
+                          "textGrowth": "fixed-width",
+                          "width": 232,
+                          "content": "Hidratación profunda para una piel suave y sedosa.",
+                          "lineHeight": 1.4,
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ImgHH",
+                          "name": "product3Price",
+                          "fill": "#EC4899",
+                          "content": "$15.990",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "E7K7P",
+                          "name": "product3Btn",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 135,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#EC4899",
+                                "position": 0
+                              },
+                              {
+                                "color": "#DB2777",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "cornerRadius": 100,
+                          "padding": [
+                            12,
+                            24
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "X6t7i",
+                              "name": "product3BtnText",
+                              "fill": "#FFFFFF",
+                              "content": "Agregar al Carrito",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SqxeX",
+          "name": "Testimonials Section",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "OgZ4O",
+              "name": "testHeader",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xawdJ",
+                  "name": "testTitle",
+                  "fill": "#831843",
+                  "content": "Lo Que Dicen Nuestras Clientas",
+                  "textAlign": "center",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 48,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Wn93v",
+                  "name": "testSubtitle",
+                  "fill": "#6B7280",
+                  "content": "Más de 500 clientas satisfechas nos respaldan",
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kUgGL",
+              "name": "testGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "re14c",
+                  "name": "test1",
+                  "width": 380,
+                  "fill": "#FDF2F8",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kUeoE",
+                      "name": "test1Stars",
+                      "content": "⭐⭐⭐⭐⭐",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wUM51",
+                      "name": "test1Quote",
+                      "fill": "#374151",
+                      "textGrowth": "fixed-width",
+                      "width": 316,
+                      "content": "\"Los productos de Natura son increíbles y Danitza siempre me asesora súper bien. El servicio es excelente y los envíos llegan rapidísimo. 100% recomendado!\"",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aagOi",
+                      "name": "test1Author",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "U8MIS",
+                          "name": "test1Avatar",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#F472B6",
+                          "cornerRadius": 100
+                        },
+                        {
+                          "type": "frame",
+                          "id": "39QJM",
+                          "name": "test1Info",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "4a22b",
+                              "name": "test1Name",
+                              "fill": "#1F2937",
+                              "content": "María González",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "qXyk0",
+                              "name": "test1Location",
+                              "fill": "#6B7280",
+                              "content": "Ovalle, Chile",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FkmXN",
+                  "name": "test2",
+                  "width": 380,
+                  "fill": "#FDF2F8",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uNaqg",
+                      "name": "test2Stars",
+                      "content": "⭐⭐⭐⭐⭐",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4MwcD",
+                      "name": "test2Quote",
+                      "fill": "#374151",
+                      "textGrowth": "fixed-width",
+                      "width": 316,
+                      "content": "\"Compré el perfume Essencial y es divino! La atención por WhatsApp fue muy rápida y el producto llegó perfectamente empacado. Volveré a comprar seguro.\"",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SZvlk",
+                      "name": "test2Author",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "EVx5h",
+                          "name": "test2Avatar",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#EC4899",
+                          "cornerRadius": 100
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RCOwj",
+                          "name": "test2Info",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "2TxDy",
+                              "name": "test2Name",
+                              "fill": "#1F2937",
+                              "content": "Carolina Pérez",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "eAmwh",
+                              "name": "test2Location",
+                              "fill": "#6B7280",
+                              "content": "La Serena, Chile",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HHjDg",
+                  "name": "test3",
+                  "width": 380,
+                  "fill": "#FDF2F8",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yEEot",
+                      "name": "test3Stars",
+                      "content": "⭐⭐⭐⭐⭐",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1Ohlu",
+                      "name": "test3Quote",
+                      "fill": "#374151",
+                      "textGrowth": "fixed-width",
+                      "width": 316,
+                      "content": "\"Soy clienta hace más de un año. Los precios son buenos, los productos son originales y Danitza siempre tiene las últimas novedades de Natura. Super recomendada!\"",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "M1jTv",
+                      "name": "test3Author",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "OvmU1",
+                          "name": "test3Avatar",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#DB2777",
+                          "cornerRadius": 100
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wbWX9",
+                          "name": "test3Info",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Xn8G7",
+                              "name": "test3Name",
+                              "fill": "#1F2937",
+                              "content": "Andrea Muñoz",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "wommK",
+                              "name": "test3Location",
+                              "fill": "#6B7280",
+                              "content": "Coquimbo, Chile",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "7O6Ui",
+          "name": "Promo Section",
+          "width": "fill_container",
+          "height": 400,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 135,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#EC4899",
+                "position": 0
+              },
+              {
+                "color": "#DB2777",
+                "position": 0.5
+              },
+              {
+                "color": "#9D174D",
+                "position": 1
+              }
+            ]
+          },
+          "gap": 60,
+          "padding": [
+            60,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "3sFHW",
+              "name": "promoContent",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Pequc",
+                  "name": "promoBadge",
+                  "fill": "#FFFFFF30",
+                  "cornerRadius": 100,
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "Vw6Os",
+                      "name": "promoBadgeIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "zap",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "u1O38",
+                      "name": "promoBadgeText",
+                      "fill": "#FFFFFF",
+                      "content": "OFERTA LIMITADA",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "yhVjw",
+                  "name": "promoTitle",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 500,
+                  "content": "¡20% OFF en tu Primera Compra!",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 52,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "pCCn2",
+                  "name": "promoDesc",
+                  "fill": "#FBCFE8",
+                  "textGrowth": "fixed-width",
+                  "width": 480,
+                  "content": "Usa el código BIENVENIDA20 en tu primer pedido. Válido para compras sobre $25.000. ¡No te lo pierdas!",
+                  "lineHeight": 1.6,
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "zXOBk",
+                  "name": "promoCta",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 100,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000030",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 20
+                  },
+                  "gap": 10,
+                  "padding": [
+                    18,
+                    36
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5jHXY",
+                      "name": "promoCtaText",
+                      "fill": "#EC4899",
+                      "content": "Obtener Descuento",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "PNu0H",
+                      "name": "promoCtaIcon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "arrow-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#EC4899"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mOhUW",
+              "name": "promoVisual",
+              "width": 400,
+              "height": 280,
+              "fill": "#FFFFFF20",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 32,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "J7CFN",
+                  "name": "promoCode",
+                  "fill": "#FFFFFF",
+                  "content": "Tu código:",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "eBmOd",
+                  "name": "promoCodeBox",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 3,
+                    "fill": "#F472B6"
+                  },
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6ZFs1",
+                      "name": "promoCodeText",
+                      "fill": "#EC4899",
+                      "content": "BIENVENIDA20",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 28,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "C22PD",
+                  "name": "promoExpiry",
+                  "fill": "#FBCFE8",
+                  "content": "⏰ Válido hasta agotar stock",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "VBop7",
+          "name": "About Section",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "gap": 80,
+          "padding": [
+            100,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "C9DEc",
+              "name": "aboutImg",
+              "metadata": {
+                "type": "unsplash",
+                "username": "ladyufoma001",
+                "link": "https://unsplash.com/@ladyufoma001",
+                "author": "Ufoma Ojo"
+              },
+              "width": 480,
+              "height": 560,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1755705152707-b0cb1a38f2ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAxNDU2Mjl8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 32
+            },
+            {
+              "type": "frame",
+              "id": "uIB4F",
+              "name": "aboutContent",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "4b1UV",
+                  "name": "aboutBadge",
+                  "fill": "#FDF2F8",
+                  "cornerRadius": 100,
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "hDJKO",
+                      "name": "aboutBadgeIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "heart",
+                      "iconFontFamily": "lucide",
+                      "fill": "#EC4899"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PbEWj",
+                      "name": "aboutBadgeText",
+                      "fill": "#EC4899",
+                      "content": "Nuestra Historia",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "j1Bb6",
+                  "name": "aboutTitle",
+                  "fill": "#831843",
+                  "textGrowth": "fixed-width",
+                  "width": 500,
+                  "content": "Conoce a Danitza Díaz Palacio",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 44,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "DPZkF",
+                  "name": "aboutDesc1",
+                  "fill": "#6B7280",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "Soy Danitza, fundadora de Narala SPA. Mi pasión por el cuidado personal y la belleza natural me llevó a crear este emprendimiento en Ovalle, Chile.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "OqDEg",
+                  "name": "aboutDesc2",
+                  "fill": "#6B7280",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "Como consultora oficial de Natura, me dedico a ayudar a cada clienta a encontrar los productos perfectos para realzar su belleza natural. Creo firmemente que el autocuidado es un acto de amor propio.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "jE9KC",
+                  "name": "aboutQuote",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 135,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#FDF2F8",
+                        "position": 0
+                      },
+                      {
+                        "color": "#FCE7F3",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": {
+                      "left": 4
+                    },
+                    "fill": "#EC4899"
+                  },
+                  "gap": 16,
+                  "padding": [
+                    24,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "X0hSC",
+                      "name": "aboutQuoteText",
+                      "fill": "#831843",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "\"La belleza comienza en el momento en que decides ser tú misma\"",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 20,
+                      "fontWeight": "500",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ARdI2",
+          "name": "Categories Section",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#FDF2F8",
+                "position": 0
+              },
+              {
+                "color": "#FBCFE8",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "zFpCo",
+              "name": "catHeader",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AcPzo",
+                  "name": "catTitle",
+                  "fill": "#831843",
+                  "content": "Nuestras Categorías",
+                  "textAlign": "center",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 48,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "piE5a",
+                  "name": "catSubtitle",
+                  "fill": "#6B7280",
+                  "content": "Encuentra todo lo que necesitas para tu rutina de belleza",
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3DlNu",
+              "name": "catGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zOs46",
+                  "name": "cat1",
+                  "width": 220,
+                  "height": 280,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000010",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 24,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qcsnw",
+                      "name": "cat1Icon",
+                      "width": 80,
+                      "height": 80,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F9A8D4",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F472B6",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 20,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "FjVaS",
+                          "name": "cat1IconInner",
+                          "width": 40,
+                          "height": 40,
+                          "iconFontName": "sparkles",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "jFXwh",
+                      "name": "cat1Title",
+                      "fill": "#831843",
+                      "content": "Perfumería",
+                      "textAlign": "center",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pA4zh",
+                      "name": "cat1Count",
+                      "fill": "#9CA3AF",
+                      "content": "+50 productos",
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oVfNr",
+                  "name": "cat2",
+                  "width": 220,
+                  "height": 280,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000010",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 24,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "v88px",
+                      "name": "cat2Icon",
+                      "width": 80,
+                      "height": 80,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F9A8D4",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F472B6",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 20,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "bKY6D",
+                          "name": "cat2IconInner",
+                          "width": 40,
+                          "height": 40,
+                          "iconFontName": "droplets",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "B1XG0",
+                      "name": "cat2Title",
+                      "fill": "#831843",
+                      "content": "Cuidado Facial",
+                      "textAlign": "center",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qPOjn",
+                      "name": "cat2Count",
+                      "fill": "#9CA3AF",
+                      "content": "+40 productos",
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qxCYr",
+                  "name": "cat3",
+                  "width": 220,
+                  "height": 280,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000010",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 24,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DnQkv",
+                      "name": "cat3Icon",
+                      "width": 80,
+                      "height": 80,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F9A8D4",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F472B6",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 20,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "P36LN",
+                          "name": "cat3IconInner",
+                          "width": 40,
+                          "height": 40,
+                          "iconFontName": "bath",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "pGuX9",
+                      "name": "cat3Title",
+                      "fill": "#831843",
+                      "content": "Cuidado Corporal",
+                      "textAlign": "center",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IcT6T",
+                      "name": "cat3Count",
+                      "fill": "#9CA3AF",
+                      "content": "+60 productos",
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AzaIA",
+                  "name": "cat4",
+                  "width": 220,
+                  "height": 280,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000010",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 24,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YvjKD",
+                      "name": "cat4Icon",
+                      "width": 80,
+                      "height": 80,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F9A8D4",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F472B6",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 20,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "u1ELf",
+                          "name": "cat4IconInner",
+                          "width": 40,
+                          "height": 40,
+                          "iconFontName": "brush",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Nw4at",
+                      "name": "cat4Title",
+                      "fill": "#831843",
+                      "content": "Maquillaje",
+                      "textAlign": "center",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3RHPt",
+                      "name": "cat4Count",
+                      "fill": "#9CA3AF",
+                      "content": "+35 productos",
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "0i2rO",
+                  "name": "cat5",
+                  "width": 220,
+                  "height": 280,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000010",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 24,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OqHKN",
+                      "name": "cat5Icon",
+                      "width": 80,
+                      "height": 80,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F9A8D4",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F472B6",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 20,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "KUP4l",
+                          "name": "cat5IconInner",
+                          "width": 40,
+                          "height": 40,
+                          "iconFontName": "scissors",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "t2dlm",
+                      "name": "cat5Title",
+                      "fill": "#831843",
+                      "content": "Cuidado Capilar",
+                      "textAlign": "center",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IzAIo",
+                      "name": "cat5Count",
+                      "fill": "#9CA3AF",
+                      "content": "+30 productos",
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "G6jMk",
+          "name": "Location Section",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "gap": 60,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Mz7uk",
+              "name": "locationContent",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZDsLp",
+                  "name": "locationBadge",
+                  "fill": "#FDF2F8",
+                  "cornerRadius": 100,
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "J4DYL",
+                      "name": "locationBadgeIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "map-pin",
+                      "iconFontFamily": "lucide",
+                      "fill": "#EC4899"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hGVvQ",
+                      "name": "locationBadgeText",
+                      "fill": "#EC4899",
+                      "content": "Visítanos",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "9sVNM",
+                  "name": "locationTitle",
+                  "fill": "#831843",
+                  "textGrowth": "fixed-width",
+                  "width": 450,
+                  "content": "Nuestra Tienda en Ovalle",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 44,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "qfRqj",
+                  "name": "locationDesc",
+                  "fill": "#6B7280",
+                  "textGrowth": "fixed-width",
+                  "width": 480,
+                  "content": "Te invitamos a conocer nuestra tienda física en el corazón de Ovalle, Chile. Aquí podrás ver, probar y elegir los productos perfectos para ti con asesoría personalizada.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "nw8mS",
+                  "name": "locationInfo",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "v4ZIE",
+                      "name": "locationAddress",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Mp8Xq",
+                          "name": "locationAddressIcon",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#FDF2F8",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "1hQ7y",
+                              "name": "locationAddressIconInner",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "map-pin",
+                              "iconFontFamily": "lucide",
+                              "fill": "#EC4899"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "jwTtO",
+                          "name": "locationAddressText",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zqzQB",
+                              "name": "locationAddressLabel",
+                              "fill": "#831843",
+                              "content": "Dirección",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "uYLiy",
+                              "name": "locationAddressValue",
+                              "fill": "#6B7280",
+                              "content": "Centro de Ovalle, Región de Coquimbo, Chile",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eb1qx",
+                      "name": "locationHours",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "x6FMl",
+                          "name": "locationHoursIcon",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#FDF2F8",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "eWlqX",
+                              "name": "locationHoursIconInner",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "clock-3",
+                              "iconFontFamily": "lucide",
+                              "fill": "#EC4899"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zZTOO",
+                          "name": "locationHoursText",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "iRFek",
+                              "name": "locationHoursLabel",
+                              "fill": "#831843",
+                              "content": "Horario",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "IZfRX",
+                              "name": "locationHoursValue",
+                              "fill": "#6B7280",
+                              "content": "Lunes a Sábado: 10:00 - 19:00",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oxygB",
+              "name": "Map Container",
+              "metadata": {
+                "type": "unsplash",
+                "username": "davidvives",
+                "link": "https://unsplash.com/@davidvives",
+                "author": "David Vives"
+              },
+              "width": 560,
+              "height": 450,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1573502160652-c5d8a218e081?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAxNDYwMDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 24,
+              "stroke": {
+                "thickness": 0
+              },
+              "layout": "vertical",
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Vfvya",
+                  "name": "mapOverlay",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#00000050",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "D3rKM",
+                      "name": "mapPinBig",
+                      "width": 80,
+                      "height": 80,
+                      "fill": "#EC4899",
+                      "cornerRadius": 100,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#EC489960",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 20
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "3zGhC",
+                          "name": "mapPinIcon",
+                          "width": 40,
+                          "height": 40,
+                          "iconFontName": "map-pin",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "UQPhV",
+                      "name": "mapLabel",
+                      "fill": "#FFFFFF",
+                      "content": "Narala SPA",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Rnb84",
+                      "name": "mapAddress",
+                      "fill": "#FFFFFF",
+                      "content": "Ovalle, Región de Coquimbo",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SKJqK",
+                      "name": "mapBtn",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#EC4899",
+                            "position": 0
+                          },
+                          {
+                            "color": "#DB2777",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 100,
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "8Qphi",
+                          "name": "mapBtnIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "navigation",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HXRQy",
+                          "name": "mapBtnText",
+                          "fill": "#FFFFFF",
+                          "content": "Cómo Llegar",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Cpcgh",
+          "name": "Contact Section",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 135,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#831843",
+                "position": 0
+              },
+              {
+                "color": "#9D174D",
+                "position": 0.5
+              },
+              {
+                "color": "#BE185D",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            100,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "oVsxo",
+              "name": "contactHeader",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VK3Aw",
+                  "name": "contactTitle",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 800,
+                  "content": "¿Lista para transformar tu rutina de belleza?",
+                  "textAlign": "center",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 48,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "6sd3J",
+                  "name": "contactSubtitle",
+                  "fill": "#FBCFE8",
+                  "content": "Contáctanos y descubre los productos perfectos para ti",
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3OzEC",
+              "name": "contactCards",
+              "gap": 32,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qG4tJ",
+                  "name": "contactWhatsapp",
+                  "width": 280,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YiR6M",
+                      "name": "contactWhatsappIcon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "#25D366",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "aeLVc",
+                          "name": "contactWhatsappIconInner",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "message-circle",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "6EePS",
+                      "name": "contactWhatsappTitle",
+                      "fill": "#1F2937",
+                      "content": "WhatsApp",
+                      "textAlign": "center",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HrtEX",
+                      "name": "contactWhatsappDesc",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": 220,
+                      "content": "Escríbenos directamente para consultas y pedidos",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8dsL2",
+                      "name": "contactWhatsappBtn",
+                      "fill": "#25D366",
+                      "cornerRadius": 100,
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "enciX",
+                          "name": "contactWhatsappBtnText",
+                          "fill": "#FFFFFF",
+                          "content": "Enviar Mensaje",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rMatP",
+                  "name": "contactInstagram",
+                  "width": 280,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "d3iNV",
+                      "name": "contactInstagramIcon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "radial",
+                        "enabled": true,
+                        "rotation": 0,
+                        "size": {
+                          "width": 1,
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FCAF45",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F77737",
+                            "position": 0.3
+                          },
+                          {
+                            "color": "#E1306C",
+                            "position": 0.6
+                          },
+                          {
+                            "color": "#C13584",
+                            "position": 0.8
+                          },
+                          {
+                            "color": "#833AB4",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "sDsbC",
+                          "name": "contactInstagramIconInner",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "instagram",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "LuJf3",
+                      "name": "contactInstagramTitle",
+                      "fill": "#1F2937",
+                      "content": "Instagram",
+                      "textAlign": "center",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iVNT3",
+                      "name": "contactInstagramDesc",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": 220,
+                      "content": "Síguenos para ver novedades y promociones",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tW36K",
+                      "name": "contactInstagramBtn",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F77737",
+                            "position": 0
+                          },
+                          {
+                            "color": "#E1306C",
+                            "position": 0.5
+                          },
+                          {
+                            "color": "#C13584",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 100,
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "9E8fw",
+                          "name": "contactInstagramBtnText",
+                          "fill": "#FFFFFF",
+                          "content": "Seguir",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "31pRI",
+                  "name": "contactEmail",
+                  "width": 280,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZAJZX",
+                      "name": "contactEmailIcon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "#1877F2",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "z8Icf",
+                          "name": "contactEmailIconInner",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "facebook",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "r8K1p",
+                      "name": "contactEmailTitle",
+                      "fill": "#1F2937",
+                      "content": "Facebook",
+                      "textAlign": "center",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mNUuc",
+                      "name": "contactEmailDesc",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": 220,
+                      "content": "Síguenos en nuestra página oficial de Facebook",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "7kx9Q",
+                      "name": "contactEmailBtn",
+                      "fill": "#1877F2",
+                      "cornerRadius": 100,
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aRP3R",
+                          "name": "contactEmailBtnText",
+                          "fill": "#FFFFFF",
+                          "content": "Visitar Página",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "6EpgM",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#1F2937",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            60,
+            120,
+            32,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "PuEcf",
+              "name": "footerMain",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gYTUr",
+                  "name": "footerBrand",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "5tUcb",
+                      "name": "footerLogoContainer",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "6hanh",
+                          "name": "footerLogoIcon",
+                          "width": 40,
+                          "height": 40,
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 135,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#F472B6",
+                                "position": 0
+                              },
+                              {
+                                "color": "#EC4899",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "t2Wre",
+                              "name": "footerLogoIconInner",
+                              "width": 20,
+                              "height": 20,
+                              "iconFontName": "flower-2",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "GXsnw",
+                          "name": "footerLogoText",
+                          "fill": "#FFFFFF",
+                          "content": "Narala SPA",
+                          "fontFamily": "Fraunces",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Wf5d8",
+                      "name": "footerBrandDesc",
+                      "fill": "#9CA3AF",
+                      "textGrowth": "fixed-width",
+                      "width": 300,
+                      "content": "Tu destino para productos de belleza y cuidado personal de alta calidad. Distribuidores oficiales de Natura en Ovalle, Chile.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zndPW",
+                      "name": "footerSocial",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "VNzeq",
+                          "name": "waFooter",
+                          "width": 40,
+                          "height": 40,
+                          "fill": "#25D366",
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "VzUdR",
+                              "name": "waFooterIcon",
+                              "width": 20,
+                              "height": 20,
+                              "iconFontName": "message-circle",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "YTlCb",
+                          "name": "footerSocialFb",
+                          "width": 40,
+                          "height": 40,
+                          "fill": "#1877F2",
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "Tp0z3",
+                              "name": "footerSocialFbIcon",
+                              "width": 20,
+                              "height": 20,
+                              "iconFontName": "facebook",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "O0lje",
+                          "name": "footerSocialIg",
+                          "width": 40,
+                          "height": 40,
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 135,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#F77737",
+                                "position": 0
+                              },
+                              {
+                                "color": "#E1306C",
+                                "position": 0.5
+                              },
+                              {
+                                "color": "#C13584",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "c5ePB",
+                              "name": "footerSocialIgIcon",
+                              "width": 20,
+                              "height": 20,
+                              "iconFontName": "instagram",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qV6j3",
+                  "name": "footerLinks1",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zRHe5",
+                      "name": "footerLinks1Title",
+                      "fill": "#FFFFFF",
+                      "content": "Productos",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TD0kg",
+                      "name": "footerLinks1A",
+                      "fill": "#9CA3AF",
+                      "content": "Perfumería",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rySAC",
+                      "name": "footerLinks1B",
+                      "fill": "#9CA3AF",
+                      "content": "Cuidado Facial",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "U0LRL",
+                      "name": "footerLinks1C",
+                      "fill": "#9CA3AF",
+                      "content": "Cuidado Corporal",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ESGB5",
+                      "name": "footerLinks1D",
+                      "fill": "#9CA3AF",
+                      "content": "Maquillaje",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "5GWIA",
+                      "name": "footerLinks1E",
+                      "fill": "#9CA3AF",
+                      "content": "Cabello",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "elOvN",
+                  "name": "footerLinks2",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wXfe7",
+                      "name": "footerLinks2Title",
+                      "fill": "#FFFFFF",
+                      "content": "Empresa",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "evT8M",
+                      "name": "footerLinks2A",
+                      "fill": "#9CA3AF",
+                      "content": "Sobre Nosotros",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "y3DBg",
+                      "name": "footerLinks2B",
+                      "fill": "#9CA3AF",
+                      "content": "Nuestra Historia",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V6jxr",
+                      "name": "footerLinks2C",
+                      "fill": "#9CA3AF",
+                      "content": "Ubicación",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fGMiw",
+                      "name": "footerLinks2D",
+                      "fill": "#9CA3AF",
+                      "content": "Contacto",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KFBJW",
+                  "name": "footerLinks3",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "N8Jvr",
+                      "name": "footerLinks3Title",
+                      "fill": "#FFFFFF",
+                      "content": "Atención",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ga8Kw",
+                      "name": "footerLinks3A",
+                      "fill": "#9CA3AF",
+                      "content": "Preguntas Frecuentes",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LG0TP",
+                      "name": "footerLinks3B",
+                      "fill": "#9CA3AF",
+                      "content": "Envíos",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JBSwW",
+                      "name": "footerLinks3C",
+                      "fill": "#9CA3AF",
+                      "content": "Devoluciones",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2yItp",
+                      "name": "footerLinks3D",
+                      "fill": "#9CA3AF",
+                      "content": "Términos y Condiciones",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "a1HsT",
+              "name": "footerDivider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#374151"
+            },
+            {
+              "type": "frame",
+              "id": "YYfkl",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Hy5ng",
+                  "name": "footerCopyright",
+                  "fill": "#6B7280",
+                  "content": "© 2025 Narala SPA. Todos los derechos reservados.",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "NdcdG",
+                  "name": "footerOwner",
+                  "fill": "#6B7280",
+                  "content": "Creado con ❤ por Lucas Gonzalez",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
